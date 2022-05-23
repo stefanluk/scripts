@@ -1,0 +1,17 @@
+alefragnani.project-manager
+bmewburn.vscode-intelephense-client
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer-2
+eamodio.gitlens
+Equinusocio.vsc-community-material-theme
+formulahendry.auto-rename-tag
+kamikillerto.vscode-colorize
+mechatroner.rainbow-csv
+mrmlnc.vscode-less
+oderwat.indent-rainbow
+PKief.material-icon-theme
+redhat.vscode-yaml
+skyapps.fish-vscode
+vincaslt.highlight-matching-tag
+VisualStudioExptTeam.vscodeintellicode
+vscodevim.vim
