@@ -6,9 +6,6 @@ yellow='\033[0;33m'
 
 step=1
 
-# ask php version
-# read -p "$(echo $cyan"Php version: "$clear)" PHP_VERSION
-
 # # ask project name
 read -p "$(echo $cyan"Project name: "$clear)" PROJECT_NAME
 
@@ -21,7 +18,8 @@ echo $yellow"Step $step: cd ~/Sites/$PROJECT_NAME"$clear
 cd "~/Sites/$PROJECT_NAME"
 
 # ssh into environment and dump media
-echo $yellow"Step $step: get media from $REFERENCE_HYPERNODE"$clear((step++))
+echo $yellow"Step $step: get media from $REFERENCE_HYPERNODE"$clear
+((step++))
 ssh app@"$REFERENCE_HYPERNODE" <<< '
 	cd ~/project/current
 	ls -lah

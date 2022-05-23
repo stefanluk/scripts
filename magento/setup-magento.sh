@@ -146,7 +146,7 @@ esac
 
 # # create env.php
 cp ~/Scripts/setup-magento/env.php ./app/etc/env.php
-sed -i .tmpl "s/PROJECT_NAME/'$PROJECT_NAME'/g" ./app/etc/env.php 
+sed -i .tmpl "s/PROJECT_NAME/$PROJECT_NAM'/g" ./app/etc/env.php 
 
 # yarn install
 echo $yellow"Step $step: yarn install"$clear
