@@ -145,7 +145,7 @@ case $TRANSFER_MEDIA in
 esac
 
 # # create env.php
-cp ~/Scripts/setup-magento/env.php ./app/etc/env.php
+cp ~/Scripts/magento/env.php ./app/etc/env.php
 sed -i .tmpl "s/PROJECT_NAME/$PROJECT_NAM'/g" ./app/etc/env.php 
 
 # yarn install
